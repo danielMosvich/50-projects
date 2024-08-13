@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  width: 90vw;
+  height: 100%;
+  /* background-color: red; */
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.images{
+    border: 1px solid #00000052;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    -webkit-transition: all 400ms ease-in;
+    position: relative;
+    overflow: hidden;
+
+}
+.images h2{
+    opacity: 0;
+}
+.active{
+  flex: 5;  
+}
+.active h2{
+    transition: opacity 0.3s ease-in 0.4s;
+    opacity: 1;
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    /* bottom: 0; */
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+@keyframes identifier {
+    
+}
