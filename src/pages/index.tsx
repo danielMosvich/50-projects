@@ -46,6 +46,21 @@ export const MainPage = () => {
             Form Input Wave
           </a>
         </li>
+        <li>
+          <a className="text-sky-500 font-semibold" href="/sound-board">
+            Sound Board
+          </a>
+        </li>
+        <li>
+          <a className="text-sky-500 font-semibold" href="/dad-jokes">
+            Dad Jokes
+          </a>
+        </li>
+        <li>
+          <a className="text-sky-500 font-semibold" href="/event-keycodes">
+            Event KeyCodes
+          </a>
+        </li>
       </ul>
     </div>
   );

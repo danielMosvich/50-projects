@@ -9,6 +9,9 @@ import { BlurryLoading } from './pages/blurryLoading'
 import { ScrollAnimation } from './pages/scrollAnimation'
 import SplitLandingPage from './pages/splitLandingPage'
 import { FormInputWave } from './pages/formInputWave'
+import { SoundBoard } from './pages/soundBoard'
+import { DadJokes } from './pages/dadJokes'
+import { EventKeycodes } from './pages/eventKeycodes'
 
 const router = createBrowserRouter([
   {
@@ -37,23 +40,38 @@ const router = createBrowserRouter([
     errorElement: <MainPage />,
   },
   {
-    path:"blurry-loading",
+    path:"/blurry-loading",
     element:<BlurryLoading/>,
     errorElement: <MainPage />,
   },
   {
-    path:"scroll-animation",
+    path:"/scroll-animation",
     element:<ScrollAnimation/>,
     errorElement: <MainPage />,
   },
   {
-    path:"split-landing-page",
+    path:"/split-landing-page",
     element:<SplitLandingPage/>,
     errorElement: <MainPage />,
   },
   {
-    path:"form-input-wave",
+    path:"/form-input-wave",
     element:<FormInputWave/>,
+    errorElement: <MainPage />,
+  },
+  {
+    path:"/sound-board",
+    element:<SoundBoard/>,
+    errorElement: <MainPage />,
+  },
+  {
+    path:"/dad-jokes",
+    element:<DadJokes/>,
+    errorElement: <MainPage />,
+  },
+  {
+    path:"/event-keycodes",
+    element:<EventKeycodes/>,
     errorElement: <MainPage />,
   }
 ])
