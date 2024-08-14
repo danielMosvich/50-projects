@@ -1,0 +1,26 @@
+.card-scroll{
+    transition: 0.3s all;
+    transform: translateX(-200%);
+    width: 500px;
+    height: 200px;
+    border-radius:24px;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.card-scroll:nth-child(odd){
+    transform: translateX(200%);
+}
+.show-scroll:nth-child(odd){
+    transform: translateX(0%);
+}
+
+.show-scroll{
+    /* background-color: red; */
+    transform: translateX(0%);
+    /* transition: 1s; */
+}
