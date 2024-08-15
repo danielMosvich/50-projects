@@ -12,6 +12,8 @@ import { FormInputWave } from './pages/formInputWave'
 import { SoundBoard } from './pages/soundBoard'
 import { DadJokes } from './pages/dadJokes'
 import { EventKeycodes } from './pages/eventKeycodes'
+import { FrequentlyAskedQuestion } from './pages/frequentlyAskedQuestion'
+import { RandomChoicePicker } from './pages/randomChoicePicker'
 
 const router = createBrowserRouter([
   {
@@ -72,6 +74,16 @@ const router = createBrowserRouter([
   {
     path:"/event-keycodes",
     element:<EventKeycodes/>,
+    errorElement: <MainPage />,
+  },
+  {
+    path:"/frequently-asked-questions",
+    element:<FrequentlyAskedQuestion/>,
+    errorElement: <MainPage />,
+  },
+  {
+    path:"/random-choice-picker",
+    element:<RandomChoicePicker/>,
     errorElement: <MainPage />,
   }
 ])

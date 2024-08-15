@@ -2,7 +2,7 @@ export const MainPage = () => {
   return (
     <div>
       <h1 className="text-4xl font-bold">50 projects in react :D</h1>
-      <ul className="list-disc ml-10 mt-10">
+      <ul className="list-decimal ml-10 mt-10">
         <li>
           <a className="text-sky-500 font-semibold" href="/expanding-cards">
             Expanding Cards
@@ -59,6 +59,16 @@ export const MainPage = () => {
         <li>
           <a className="text-sky-500 font-semibold" href="/event-keycodes">
             Event KeyCodes
+          </a>
+        </li>
+        <li>
+          <a className="text-sky-500 font-semibold" href="/frequently-asked-questions">
+            Frequently Asked Questions
+          </a>
+        </li>
+        <li>
+          <a className="text-sky-500 font-semibold" href="/random-choice-picker">
+            Random Choice Picker
           </a>
         </li>
       </ul>
