@@ -1,0 +1,11 @@
+.bug{
+    background: red;
+    width: 200px;
+    height: 200px;
+    transition: all 1s;
+}
+
+.bug:hover{
+    background: blue;
+    width: 400px;
+}

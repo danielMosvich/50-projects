@@ -14,6 +14,7 @@ import { DadJokes } from './pages/dadJokes'
 import { EventKeycodes } from './pages/eventKeycodes'
 import { FrequentlyAskedQuestion } from './pages/frequentlyAskedQuestion'
 import { RandomChoicePicker } from './pages/randomChoicePicker'
+import { AnimationNavigation } from './pages/animationNavigation'
 
 const router = createBrowserRouter([
   {
@@ -84,6 +85,11 @@ const router = createBrowserRouter([
   {
     path:"/random-choice-picker",
     element:<RandomChoicePicker/>,
+    errorElement: <MainPage />,
+  },
+  {
+    path:"/animation-navigation",
+    element:<AnimationNavigation/>,
     errorElement: <MainPage />,
   }
 ])
